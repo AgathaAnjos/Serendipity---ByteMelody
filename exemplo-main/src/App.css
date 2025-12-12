@@ -160,3 +160,28 @@ body {
 @media (max-width: 600px) {
  
 }
+
+/* scroll */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: linear-gradient(to bottom, #001127 20%, #00091b 40%, #00040c 50%);
+}
+
+::-webkit-scrollbar-thumb {
+  background: linear-gradient(180deg, #004196 0%, #00091b 100%);
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: linear-gradient(180deg, #001127 0%, #00091b 100%);
+}
+
+
+@media (max-width: 768px) {
+  #about img {
+    margin: 50px 0;
+  }
+}
